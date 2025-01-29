@@ -4,13 +4,15 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background: #333;
+    background: #222;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
+    list-style: none;
 }
 
 nav ul {
@@ -56,4 +58,15 @@ img {
     height: auto;
     display: block;
     margin: 10px auto;
+} 
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.profile-img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
 }
