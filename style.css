@@ -48,7 +48,7 @@ table {
     margin: 20px 0;
 }
 
-table th, table td {
+table thead, table td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
