@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Poppins', Arial, sans-serif;
+    line-height: 1.8;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -12,62 +12,102 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
-    list-style: none;
 }
 
 nav ul {
-    background: #444;
-    color: #fff;
-    list-style: none;
+    background: #333;
     padding: 10px;
     text-align: center;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 15px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ddd;
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f4a261;
 }
 
 section {
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 900px;
     background: #fff;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
 }
 
+/* Táblázat dizájn */
 table {
-    
     width: 75%;
     border-collapse: collapse;
-    margin: 20px 0;
+     margin: auto;
+    background: #fff;
 }
 
-table thead, table td {
+table thead {
+    background: #333;
+    color: #fff;
+}
+
+table th, table td {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 12px;
     text-align: left;
 }
 
+table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background: #f1f1f1;
+}
+
+/* Képek */
 img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 10px auto;
-} 
-.video-container {
-    text-align: center;
-    margin-top: 20px;
 }
+
 .profile-img {
     width: 100%;
     max-width: 300px;
     display: block;
     margin: auto;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Videó középre */
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Reszponzív kialakítás */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        width: 90%;
+        padding: 15px;
+    }
+
+    table {
+        width: 100%;
+    }
 }
