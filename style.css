@@ -63,6 +63,14 @@ table caption {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Árnyék */
     border-bottom: 3px solid #444; /* Alsó szegély */
 }
+#borito{
+width: 200px;
+}
+
+#koncertborito{
+width: 400px;
+
+}
 
 table thead {
     background: #333;
