@@ -14,20 +14,6 @@ header {
     text-align: center;
 }
 
-.video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.video-container video {
-    width: 600px;
-    height: auto;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
 nav ul {
     background: #333;
     padding: 10px;
@@ -57,9 +43,10 @@ section {
     padding: 25px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     border-radius: 10px;
+    overflow: hidden;
 }
 
-/* Táblázat dizájn */
+
 table {
     width: 75%;
     border-collapse: collapse;
@@ -83,7 +70,6 @@ width: 200px;
 
 #koncertborito{
 width: 400px;
-
 }
 
 table thead {
@@ -114,32 +100,33 @@ img {
 }
 
 .profile-img {
-    width: 100%;
-    max-width: 300px;
+    width: 500px;
     display: block;
-    margin: auto;
+    margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
-
 .video-container {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
 }
 
-/* @media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
+.video-container video {
+    width: 600px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
 
-    section {
-        width: 90%;
-        padding: 15px;
-    }
-
-    table {
-        width: 100%;
-    }
-} */
+.jobbkep {
+    float: right;
+    margin: 10px 0 10px 20px;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
