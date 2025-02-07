@@ -45,6 +45,9 @@ section {
     border-radius: 10px;
     overflow: hidden;
 }
+footer{
+    text-align: center;
+}
 
 
 table {
